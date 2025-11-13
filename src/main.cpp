@@ -1,6 +1,6 @@
-#include <fmt/core.h>
+#include "renderer.hpp"
 
 int main() {
-    fmt::print("Hello, World!");
+    Renderer renderer;
     return 0;
 }
